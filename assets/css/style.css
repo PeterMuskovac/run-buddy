@@ -72,7 +72,7 @@ section {
 
 /* Hero Style Start */
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url('../images/hero-bg.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -82,7 +82,7 @@ section {
 
 .hero-form {
   border: 3px solid #024e76;
-  background-color:#fce138;
+  background-color: #fce138;
   padding: 20px;
   width: 500px;
   color: #024e76;
@@ -95,7 +95,6 @@ section {
   font-size: 24px;
   margin: 0;
 }
-
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -121,14 +120,13 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 }
-/* HERO STYLES END */
 
 .intro {
   text-align: center;
 }
 
 .intro p {
-  line-height:1.7;
+  line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
@@ -138,6 +136,30 @@ section {
 .steps {
   text-align: center;
   background: #fce138;
+}
+
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+
+.steps span {
+  font-size: 38px;
 }
 
 .section-title {
@@ -157,40 +179,16 @@ section {
   border-color: #39a6b2;
 }
 
-.steps div {
-  margin-bottom: 80px;
-}
-
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-}
-
-.steps h3 {
-  color: #024e76;
-  font-size: 46px;
-  margin-top: 10px
-}
-
-.steps p {
-  color: #39a6b2;
-  font-size: 23px;
-}
-
-.steps span {
-  font-size:38px;
-}
-
 .trainers {
   text-align: center;
 }
 
 .trainer {
-  width: 900px
+  width: 900px;
   margin: 0 auto 30px auto;
   background: #024e76;
   color: #fce138;
-  overflow: auto
+  overflow: auto;
 }
 
 .trainer img {
@@ -202,14 +200,6 @@ section {
   padding: 35px;
   float: left;
   width: 65%;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .trainer-bio h3 {
@@ -226,4 +216,12 @@ section {
 .trainer-bio p {
   font-size: 17px;
   line-height: 1.3;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
